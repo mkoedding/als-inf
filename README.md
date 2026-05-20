@@ -15,6 +15,6 @@ Zu Aufgabe 1: [Bakterien.java](Bakterien.java)
 
 Zu Aufgabe 2: [Schulden.java](Schulden.java)
 
-Zu Aufgabe 3: [Sparplan.java](Sparplan_voll_java)
+Zu Aufgabe 3: [Sparplan.java](Sparplan_voll.java)
 
 Zu Aufgabe 4: [Bankenvergleich.java](Bankenvergleich.java)
