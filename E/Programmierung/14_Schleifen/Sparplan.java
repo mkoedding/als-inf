@@ -8,6 +8,8 @@ public class Sparplan {
         double guthaben = s.nextDouble();
 
         // TODO: Jährliche Sparrate in Euro einlesen
+        System.out.print("Jaehrliche Sparrate in Euro: ");
+        double sparrate = s.nextDouble();
 
         System.out.print("Zinssatz in Prozent: ");
         double zinssatz = s.nextDouble();
@@ -19,6 +21,7 @@ public class Sparplan {
 
         // TODO: Ergänzen Sie die Berechnung, um die jährliche Sparrate zu berücksichtigen
         while (guthaben < sparziel) {
+            guthaben = guthaben + sparrate;
             guthaben = guthaben + guthaben * zinssatz / 100;
             jahre = jahre + 1;
         }
